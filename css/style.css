@@ -66,10 +66,19 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
+#container {background-color:#ccc;padding-right:30px;padding-left:30px;}
+header {height:30%;width:100%;background-color:#ccc;float:none;clear:both;display:block;}
+.logo {width:194px;height:120px;background-image: url(../img/logo_steinbruch_starkenbach.jpg);}
+
+.left {width:200px;height:300px;float:left;background-color:#c00;}
+.right{float:left;background-color:#c43;}
+.sidebar {width:200px;float:left;height:300px;background-color:#333;}
 
 
+nav {float:left;background-color:#000;color:#fff;width:50%;}
+.navpunkt {height:30px;float:left;margin-right:20px;}
 
-
+.sliderholder {float:left;min-height:300px;}
 
 
 

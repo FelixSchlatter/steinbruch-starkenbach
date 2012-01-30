@@ -99,13 +99,21 @@ nav ul li {list-style-type:none;float:left;margin-right:50px;font-size: 24px;}
 #insideholder {overflow:hidden;left:200px;width:20760px;height:100%;position:relative;}
 
 .content {float:left;width:745px;}
-.produkt {width: 185px;height: 300px;float:left; border-right:1px solid #ccc;margin-bottom: 30px;}
+.produkt {width: 165px;height: 340px;float:left; border-right:1px solid #ccc;margin-bottom: 30px;padding-left:10px;padding-right:10px;}
+.produkt:hover { border-right:1px solid #efebeb;background-color:#efebeb;}
+
+.produktimg {width:165px;height:200px;background-color:#ccc;margin-bottom:10px;}
+.bname {float:left;width: 70px;} .name {width:90px;float:left;}
+.bschuettwert {float:left;width: 70px;} .schuettwert {width:90px;float:left;}
+.bgewicht {float:left;width: 70px;} .gewicht {width:90px;float:left;}
+.bpreis {float:left;width: 70px;} .preis {width:90px;float:left;}
 
 .content ul li {list-style-type:square;}
 .content strong.zeitstrahl {font-weight:strong;}
+a, a:visited {font-weight:bold; text-decoration:underline; color:#000;}
+a:hover {color:#666;}
 
-.content a {font-weight:bold; text-decoration:underline; color:#000;}
-
+small {line-height:85%;font-size: 85%;color:#666;font-style:italic;}
 
 /* ie fixes */
 
@@ -115,11 +123,11 @@ nav ul li {list-style-type:none;float:left;margin-right:50px;font-size: 24px;}
 
 /* shadowbox */
 
-#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"Arial","sans-serif Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"Arial","sans-serif Neue",Arial,sans-serif;font-weight:200;color:#fff;}
 #sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
 #sb-overlay{position:relative;height:100%;width:100%;}
 #sb-wrapper{position:absolute;visibility:hidden;width:100px;}
-#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-wrapper-inner{position:relative;border:15px solid #000;overflow:hidden;height:100px;}
 #sb-body{position:relative;height:100%;}
 #sb-body-inner{position:absolute;height:100%;width:100%;}
 #sb-player.html{height:100%;overflow:auto;}

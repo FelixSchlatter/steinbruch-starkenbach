@@ -76,7 +76,9 @@ header {height:280px;width:100%;margin-bottom:0px;background-color:#ccc;float:no
 #main {padding-left:30px;}
 
 .logo {width:211px;height:120px;position:absolute;z-index:999;
-	background-image: url(../img/logo_steinbruch_starkenbach.jpg);}
+	background-image: url(../img/logo_steinbruch_starkenbach.jpg);background-repeat:no-repeat;
+	background-position:10px 0px;background-color:#fff;
+	}
 
 #kurve {height:280px;width:100%;margin-bottom:0px;
 	z-index:1;

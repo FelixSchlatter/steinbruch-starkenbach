@@ -75,13 +75,19 @@ header {height:280px;width:100%;margin-bottom:0px;background-color:#ccc;float:no
 
 #main {padding-left:30px;}
 
-.logo {width:194px;height:120px;position:absolute;z-index:999;
+.logo {width:211px;height:120px;position:absolute;z-index:999;
 	background-image: url(../img/logo_steinbruch_starkenbach.jpg);}
 
 #kurve {height:280px;width:100%;margin-bottom:0px;
 	z-index:1;
 	float:none;position:absolute;
 	background-image: url(../img/kurve.png);background-position:0 138px;background-repeat:repeat-x;}
+
+header:hover { 	
+	filter:alpha(opacity=70); /* IE */
+	-moz-opacity: 0.70; /* Mozilla */
+	opacity: 0.70; /* Opera */
+	 }
 
 .left {width:200px;height:300px;float:left;position:absolute;z-index:99;}
 .right{padding-left:10px;clear:right;}
@@ -114,6 +120,12 @@ a, a:visited {font-weight:bold; text-decoration:underline; color:#000;}
 a:hover {color:#666;}
 
 small {line-height:85%;font-size: 85%;color:#666;font-style:italic;}
+
+.align_left {float:left;margin-right: 30px;}
+.align_right {float:left;}
+
+.downloadbox {margin-top: 100px;background-position:150px 27px;padding: 10px;background-color:#f0f0f0;background-image:url(../img/arrow_down.png);background-repeat:no-repeat;}
+.downloadbox:hover { background-color:#ccc; }
 
 /* ie fixes */
 

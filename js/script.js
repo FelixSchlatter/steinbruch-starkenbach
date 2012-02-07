@@ -35,6 +35,7 @@ $('#unternehmen, #standort, #kontakt').fadeTo(0, out);
 
 $('#nav1').click(function() {
 	$('#produkte').fadeTo('slow', inn);$('#unternehmen').fadeTo('slow', out);$('#standort').fadeTo('slow', out);$('#kontakt').fadeTo('slow', out);$('#produkte').height('100%');
+	$('#unternehmen').height('100%');
 	//$('#kurve').animate({backgroundPosition: '-400px 138px'});
 	$('header').animate({backgroundPosition: '0px 0px'});
   $('#insideholder').animate({
@@ -45,6 +46,7 @@ $('#nav1').click(function() {
 });
 $('#nav2').click(function() {
 $('#produkte').fadeTo('slow', out);$('#unternehmen').fadeTo('slow', inn);$('#standort').fadeTo('slow', out);$('#kontakt').fadeTo('slow', out);$('#produkte').height(50);
+	$('#unternehmen').height('100%');
 //$('#kurve').animate({backgroundPosition: '-800px 138px'});
 $('header').animate({backgroundPosition: '-200px 0px'});
   $('#insideholder').animate({
@@ -54,7 +56,8 @@ $('header').animate({backgroundPosition: '-200px 0px'});
   });
 });
 $('#nav3').click(function() {
-$('#produkte').fadeTo('slow', out);$('#unternehmen').fadeTo('slow', out);$('#standort').fadeTo('slow', inn);$('#kontakt').fadeTo('slow', out);$('#produkte').height(50);
+$('#produkte').fadeTo('slow', out);$('#unternehmen').fadeTo('slow', out);$('#standort').fadeTo('slow', inn);$('#kontakt').fadeTo('slow', out);$('#produkte').height(10);
+	$('#unternehmen').height(10);
 //$('#kurve').animate({backgroundPosition: '-1200px 138px'});
 $('header').animate({backgroundPosition: '-400px 0px'});
   $('#insideholder').animate({
@@ -63,6 +66,9 @@ $('header').animate({backgroundPosition: '-400px 0px'});
     // finito!
   });
 });
+
+/* vierter navpunkt => unbenötigt!
+
 $('#nav4').click(function() {
 $('#produkte').fadeTo('slow', out);$('#unternehmen').fadeTo('slow', out);$('#standort').fadeTo('slow', out);$('#kontakt').fadeTo('slow', inn);$('#produkte').height(50);
 ////$('#kurve').animate({backgroundPosition: '-1600px 138px'});
@@ -73,7 +79,7 @@ $('header').animate({backgroundPosition: '-600px 0px'});
     // finito!
   });
 });
-
+*/
 
 
 })

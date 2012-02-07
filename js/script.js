@@ -20,9 +20,11 @@ $(window).resize(function() {
 	//$('header').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 });
 
+$('body').click(function() {
+	$('header').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
-
-
+ 
+});
 
 //$('.content').width($(window).width() - $('.left').width());
 

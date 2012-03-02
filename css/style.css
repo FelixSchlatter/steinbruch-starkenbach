@@ -122,8 +122,31 @@ small {line-height:85%;font-size: 85%;color:#666;font-style:italic;}
 .align_left {float:left;margin-right: 30px;}
 .align_right {float:left;}
 
-.downloadbox {margin-top: 100px;background-position:150px 27px;padding: 10px;background-color:#f0f0f0;background-image:url(../img/arrow_down.png);background-repeat:no-repeat;}
+.downloadbox {margin-top: 50px;background-position:150px 27px;padding: 10px;background-color:#f0f0f0;background-image:url(../img/arrow_down.png);background-repeat:no-repeat;}
 .downloadbox:hover { background-color:#ccc; }
+
+.sugbbox {
+	float:left;
+	height:53px;
+	margin-top: 50px;
+	background-position:10px 0px;
+	padding-top:80px;
+	padding-left: 0px;
+	width: 182px;
+	background-color:#fff;
+	background-image:url(../img/sugb.jpg);
+	background-repeat:no-repeat;
+	}
+.sugbbox a {
+	font-weight:normal;
+	text-decoration:none;
+	padding-left:15px;
+	background-image:url(../img/icon.jpg);
+	background-repeat:no-repeat;
+	 }	
+.sugbbox:hover { 
+	background-position:10px -322px;
+}
 
 /* ie fixes */
 

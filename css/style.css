@@ -122,13 +122,13 @@ small {line-height:85%;font-size: 85%;color:#666;font-style:italic;}
 .align_left {float:left;margin-right: 30px;}
 .align_right {float:left;}
 
-.downloadbox {margin-top: 50px;background-position:150px 27px;padding: 10px;background-color:#f0f0f0;background-image:url(../img/arrow_down.png);background-repeat:no-repeat;}
+.downloadbox {margin-top: 20px;background-position:150px 27px;padding: 10px;background-color:#f0f0f0;background-image:url(../img/arrow_down.png);background-repeat:no-repeat;}
 .downloadbox:hover { background-color:#ccc; }
 
 .sugbbox {
 	float:left;
 	height:53px;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-position:10px 0px;
 	padding-top:80px;
 	padding-left: 0px;
@@ -188,6 +188,10 @@ div.sb-message{font-size:12px;padding:10px;text-align:center;}
 div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
 
 
+.iphone { display:none; }
+.logo_iphone {display:none;
+	}
+
 
 
 /* ==|== non-semantic helper classes ======================================== */
@@ -204,8 +208,52 @@ div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underl
 
 /* ==|== media queries ====================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
 
+.iphone { 
+	background-image: url(../img/logo_steinbruch_starkenbach.jpg);background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding: 0px;
+	margin:0px;
+	padding-top: 130px;
+	display:block; 
+	background-color:#fff;
+	}
+.logo_iphone {
+	display:block; 
+	width:211px;height:120px;
+	background-color:#fff;
+	}
+ .adresse {
+     background-color:none;
+     color: #000;
+     margin-bottom: 30px;
+     padding: 0px;
+ }	
+
+.liner {
+	
+	padding-top:10px;
+	padding-bottom:15px;
+	padding-left:20px;
+	padding-right:20px;
+	border-bottom:1px solid #ccc;
+}
+.grey { 
+	background-color:#ebebeb;
+	}
+
+.downloadbox {
+	width:65%;
+    background-color: #F0F0F0;
+    background-image: url("../img/arrow_down.png");
+    background-position: 120px 27px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+   
+}	
+	
+#container, #container img { display:none;visibility:hidden;}
 
 }
 

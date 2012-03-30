@@ -95,7 +95,9 @@ header {height:280px;width:100%;margin-bottom:0px;background-color:#ccc;float:no
 
 
 nav {;background-color:#fff;color:#000;height:80px;margin-left:200px;}
-nav ul li {list-style-type:none;float:left;margin-right:50px;font-size: 24px;}
+nav ul li {list-style-type:none;float:left;margin-right:50px;font-size: 24px;
+	cursor:pointer;
+	}
 
 .sliderholder {overflow:hidden;width:100%;height:100%;}
 
@@ -147,6 +149,28 @@ small {line-height:85%;font-size: 85%;color:#666;font-style:italic;}
 .sugbbox:hover { 
 	background-position:10px -322px;
 }
+
+.leitbild {
+	padding:10px;
+	border:1px solid #ccc;
+	background-color:#f0f0f0;
+	margin-bottom:30px;
+}
+.entwicklung {
+	padding:10px;
+
+	background-color:#fff;
+	margin-bottom:30px;
+}
+
+.leitbild ul {
+	margin: 1em 0;
+	padding: 0 0 0 0px;
+}
+.leitbild ul li {
+	list-style-type:none;
+}
+
 
 /* ie fixes */
 
@@ -252,6 +276,8 @@ div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underl
     margin-top: 20px;
    
 }	
+
+
 	
 #container, #container img { display:none;visibility:hidden;}
 

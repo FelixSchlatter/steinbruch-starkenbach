@@ -21,7 +21,7 @@ $(window).resize(function() {
 });
 
 $('body').click(function() {
-	$('header').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+	//$('header').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
  
 });
